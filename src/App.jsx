@@ -32,6 +32,7 @@ export default function App() {
             To-Do List
           </h2>
           <hr />
+          <p>Monday, 12 May 2025</p>
 
         </header>
 
