@@ -1,0 +1,79 @@
+
+/* Atur tinggi penuh untuk body & root */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #DFF2FE;
+  flex: none;
+}
+
+/* Pusatkan isi dengan Flexbox */
+#root {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-self: center;
+}
+
+/* Gaya untuk .app */
+.app {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Modal Styling */
+.modal {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.nama {
+  display: flex;
+  background-color: #099B32;
+  color: white;
+  width: 207px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+ input {
+  display: flex;
+  width: 200px;
+  height: 50px;
+ }
