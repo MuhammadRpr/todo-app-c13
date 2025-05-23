@@ -41,7 +41,7 @@ export default function AddTodoModal({ isOpen, onClose, onAddTodo }) {
                 onClick={(e) => e.stopPropagation()} // Cegah klik dalam modal menutupnya
             >
                 <h5>Tambah Aktivitas</h5>
-                <input
+                <input className='input'
                     type="text"
                     value={input}
                     onChange={(e) => setInput(e.target.value)}

@@ -57,6 +57,13 @@ html, body, #root {
   padding: 15px;
   border-radius: 8px;
   
+  
+}
+
+.input {
+  width: 250px;
+  height: 300px;
+  text-align: top;
 }
 
 .overlay {
@@ -67,13 +74,18 @@ html, body, #root {
   display: flex;
   background-color: #099B32;
   color: white;
-  width: 207px;
+  width: 250px;
+  height: 40px;
+  padding-bottom: 5px;
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-top: 0px;
+  
 }
- input {
-  display: flex;
-  width: 200px;
-  height: 50px;
+ 
+
+ .modal-backdrop {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
  }
